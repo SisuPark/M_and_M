@@ -1,0 +1,164 @@
+
+Analyses and the corresponding scripts
+
+
+Definition of CSTs: cst_definition.R
+
+
+Fig 1(A)
+Comparison of CST frequencies between non-AA and AA pregnant women
+over all three visits or at visit 1 (16-20 weeks of gestation).
+File: cmp_CSTs_bw_AA_and_nonAA.R
+
+Fig 1(B)
+Comparison of CST frequencies between sPTB and TERM women in
+(i) all subjects - at all three visits or visit 1
+(ii) non-AA - at all three visits or visit 1
+(iii) AA - at all three visits or visit 1
+File: cmp_CSTs_delSt.R
+
+
+Fig 1(C)
+Dependence of the risk of sPTB (defined as <37 weeks of gestation) on
+the log10 relative abundance of M. curtisii/mulieris and S. sanguinegens in all
+subjects and AA. Corresponding volcano plots.
+Files:
+risk_of_sPTB_vs_logRA_all_subjects.R
+risk_of_sPTB_vs_logRA_AA.R
+
+
+Fig 1(D)
+the same as Fig 1(C), but with sPTB defined as birth at <34 weeks of
+gestation.
+Files:
+risk_of_sPTB34_vs_logRA_all_subjects.R
+risk_of_sPTB34_vs_logRA_AA.R
+
+
+Fig 1(E)
+Kaplan-Meier survival plot for BVAB3, M. curtisii/mulieris and S.
+sanguinegens in all and AA women who harbor these bacterial taxa at relative
+abundance below (blue) or above (orange) the threshold values above which the
+risk of sPTB is significant different from baseline.
+File: surv.R
+
+
+Fig 2(A)
+Modulation of the risk of sPTB by relative abundance of M. curtisii/mulieris
+stratified by Lactobacillus spp relative abundance tertiles within AA when all
+visits are considered.
+Files:
+risk_of_sPTB_vs_logRA_AA.R
+fig2A.R
+
+
+Fig 2(B)
+log10 beta-defensins abundances at visit 1 in AA women stratified by pregnancy
+outcomes and vaginal community state types.
+File: fig2B.R
+
+
+Fig 2(C)
+Risk of sPTB at visit 1 in AA women vs beta-defensins quartiles within samples
+where selected five bacterial taxa were detected.
+File: fig2C.R
+
+
+
+Fig 3
+Interactions between beta-defensins, Lactobacillus spp. relative
+abundance, M. curtisii/mulieris relative abundance, vaginal community state
+types and pregnancy outcomes in AA women at visit 1. Each woman who went on to
+deliver preterm is represented by a triangle, while those who delivered at term
+by a square. Large and small triangles or squares are colored by CSTs and
+indicate relative abundances of M. curtisii/mulieris above and below its
+threshold value, respectively, as defined in Fig. 1. beta-defensins
+concentrations and Lactobacillus spp. relative abundances were stratified into
+tertiles. The color of each quadrant indicates the proportion of sPTBs (number
+of sPTB/total births).
+File: fig3.R
+Comparison of proportions of sPTB subjects in different regions of
+beta-defensins, Lactobacillus spp. adundances to the baseline (study design
+determined) sPTB proportion.
+File: fig3S7.R
+NOTE: Figure 3 in the paper was beautified in Adobe Illustrator
+
+
+
+Fig S1(A)
+Frequency of each CST in non-AA and AA pregnant women when considering
+samples collected at visit 2 (20-24 weeks of gestation) or visit 3 (24-28 weeks
+of gestation).
+File: figS1A.R
+
+
+Fig S1(B)
+Frequency of each CST stratified by outcomes (sPTB vs Term) in all subjects,
+non-AA and AA when considering samples collected at visit 2 or visit 3.
+File: figS1B.R
+
+
+Fig S2.
+Dependence of the risk of spontaneous preterm delivery on bacterial taxa
+relative abundance. Dependence of the risk of sPTB (defined as <37 weeks of
+gestation) on the relative abundance of bacterial taxa for which the dependence
+was statistically significant in
+(A) all subjects/all visits, File: risk_of_sPTB_vs_logRA_all_subjects.R
+(B) AA/all visits, File: risk_of_sPTB_vs_logRA_AA.R
+(C) all subjects/visit 1, File: risk_of_sPTB_vs_logRA_all_subjects_V1.R
+(D) AA/visit 1, File: risk_of_sPTB_vs_logRA_AA_V1.R
+(E) all subjects/visit 2, File: risk_of_sPTB_vs_logRA_all_subjects_V2.R
+
+
+Fig S3(A)
+Modulation of the risk of sPTB associated with increasing relative
+abundance of M. curtisii/mulieris in all subjects by the relative abundance of
+Lactobacillus spp. stratified in tertiles, when all visits are considered.
+File: figS3A.R
+
+Fig S3(B)
+At visit 1 in all women, higher abundance beta-defensins modulate the risk of
+sPTB risk associated with the relative abundance of five bacterial taxa.
+File:
+aa_all_spmrf_bo2.R
+
+Fig S3(C) ?????
+beta-defensins at visit 1 in all subjects and pregnancy outcomes stratified by
+vaginal community state types.
+File:
+
+
+Fig S4
+Vaginal microbiota Shannon diversity over gestational age in term and
+preterm pregnancies in (A) all subjects and (B) AA.
+File: figS4.R
+
+
+Fig S5
+Modulation of the risk of preterm birth by Lb and beta-defensins in all subjects
+at visit 1.
+Files:
+comparison_sPTB_percentages_within_BD_tertiles.R
+figS5B.R
+figS5C.R
+
+
+Fig S6
+beta-defensins, ethnicity and pregnancy outcomes. beta-defensins at visit
+1 in AA women and pregnancy outcomes stratified by vaginal community state
+types.
+File: figS6.R
+
+
+Fig S7
+Interactions between beta-defensins, Lactobacillus spp. relative
+abundance, M. curtisii/mulieris relative abundance, vaginal community state
+types and pregnancy outcomes in all women at visit 1. Each woman who went on to
+delivered preterm is represented by a triangle, while those who delivered at
+term by a square. Large and small triangles or squares are colored by CSTs and
+indicates relative abundance of M. curtisii/mulieris above and below its
+threshold value, respectively, as defined in Fig. 1. beta-defensins
+concentrations and Lactobacillus spp. relative abundances were stratified into
+tertiles. The color of each quadrant indicates the proportion of sPTBs (number
+of sPTB/total births).
+Files: figS7.R, fig3S7.R
